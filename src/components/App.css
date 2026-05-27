@@ -291,6 +291,10 @@ ul            { list-style: none; }
   unicode-bidi: isolate;
 }
 
+.navbar__brand-ar span {
+  color: #075bd8;
+}
+
 .navbar__links {
   display: flex;
   align-items: center;
