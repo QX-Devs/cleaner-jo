@@ -30,7 +30,7 @@ const postConstruction = [
   { title: "تنظيف الشقق",     image: "/t222.webp" },
   { title: "تنظيف المكاتب",   image: "/office.jpg" },
   { title: "تنظيف المطاعم",   image: "/coffee222.webp"  },
-  { title: "تنظيف الشاليهات", image: "/chalets222.jpg" },
+  { title: "تنظيف الشاليهات", image: "/Chalets222.jpg" },
   { title: "تنظيف الواجهات الزجاجية", image: "/glass222.jpg" },
     { title: "جلي الحجر", image: "/stone222.jpeg" },
 ];
