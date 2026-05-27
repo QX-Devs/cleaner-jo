@@ -279,22 +279,6 @@ ul            { list-style: none; }
   font-weight: 950;
 }
 
-.navbar__brand-ar {
-  font-family: 'Cairo', 'Tajawal', 'Segoe UI', 'Noto Sans Arabic', system-ui, sans-serif;
-  font-size: clamp(1.05rem, 1.45vw, 1.45rem);
-  font-weight: 950;
-  color: #071a33;
-  line-height: 1;
-  white-space: nowrap;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.65);
-  direction: rtl;
-  unicode-bidi: isolate;
-}
-
-.navbar__brand-ar span {
-  color: #075bd8;
-}
-
 .navbar__links {
   display: flex;
   align-items: center;
