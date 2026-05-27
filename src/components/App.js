@@ -209,6 +209,7 @@ function Navbar() {
           <span className="navbar__brand-text" dir="ltr">
             Cleaner <span>Jo</span>
           </span>
+          <span className="navbar__brand-ar" dir="rtl">كلينر جو</span>
         </button>
 
         <div className="navbar__links">
