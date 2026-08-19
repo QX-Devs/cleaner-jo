@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import "./App.css";
 
 /* ═══════════════════════════════════════════════════════════
@@ -920,6 +921,9 @@ function Footer() {
                   {link.labelAr}
                 </button>
               ))}
+              <Link href="/privacy-policy" className="footer__link" style={{ color: "var(--green)" }}>
+                سياسة الخصوصية
+              </Link>
             </nav>
           </div>
 
@@ -946,7 +950,12 @@ function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <p>© {new Date().getFullYear()} كلينر جو — جميع الحقوق محفوظة</p>
+          <p>
+            © {new Date().getFullYear()} كلينر جو — جميع الحقوق محفوظة |{" "}
+            <Link href="/privacy-policy" style={{ textDecoration: "underline", color: "inherit" }}>
+              سياسة الخصوصية
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
